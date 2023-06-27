@@ -1,0 +1,78 @@
+
+#back{
+background-color: blueviolet;
+}
+
+.col > img{
+width: 200px;
+
+}
+#chuteiraf ,#camisa, #bolaf, #luva{
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  
+  }
+#magnus, #chuteira , #joelheira, #meiao{
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  
+  }
+#tenisbasq, #regata, #bolab, #cotoveleir {
+width: 250px;
+height: 250px;
+
+}
+.col{
+
+overflow: hidden;
+}
+.zoom {
+max-width: 100%;
+transition: all 0.3s;
+}
+.zoom:hover {
+  transform: scale(1.1);
+}
+#botao{
+  margin: auto; display: flex;
+}
+.texto{
+text-align: center;
+
+}
+.kkk{
+  text-align: center;
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  width: 80px;
+  height: 60px;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 1px;
+  transition: 1s;
+}
+
+#myBtn:hover {
+  font-size: 35px;
+ 
+}
+#bordaf{
+  text-align: center;
+}
